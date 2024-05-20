@@ -49,7 +49,7 @@ class Estoque {
     }
 }
 
-$database = new Database();
+$database = new ConnDataBase();
 $estoque = new Estoque($database);
 
 
